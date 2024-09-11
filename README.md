@@ -20,9 +20,9 @@ De code die wordt uitgevoerd wanneer je op één van de drie knoppen klikt is telk
 ## Deel 3
 - Kopieer onderstaande XAML code en plak het als inhoud van het *secondPanel*
 ```
-    <Button Content="By Value" Height="24" Width="100" Margin="10" Name="subtractByValButton" Click="subtractByValButton_Click"/>
+    <Button Content="- 1 (By Value)" Height="24" Width="100" Margin="10" Name="subtractByValButton" Click="subtractByValButton_Click"/>
     <TextBox Name="resultByValTextBox" Text="100" Margin="10 0" TextAlignment="Right"/>
-    <Button Content="By Ref" Height="24" Width="100" Margin="10" Name="subtractByRefButton" Click="subtractByRefButton_Click"/>
+    <Button Content="- 1 (By Ref)" Height="24" Width="100" Margin="10" Name="subtractByRefButton" Click="subtractByRefButton_Click"/>
     <TextBox Name="resultByRefTextBox" Text="100" Margin="10 0" TextAlignment="Right"/>
 ```
 - Kopieer onderstaande code en plak het in de code-behind van de *MainWindow*
